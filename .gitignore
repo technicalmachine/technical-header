@@ -1,5 +1,4 @@
+.DS_Store
 bower_components/
-*.css
-test.scss
-test.html
-*.jade
+node_modules/
+*test.css
