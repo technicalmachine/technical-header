@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var nodemon = require('gulp-nodemon');
 
-var dist_files = ['./lib/_components.technical-header.scss', './lib/technical-header.jade', './lib/bower.json'];
+var dist_files = ['./lib/_components.technical-header.scss', './lib/technical-header.jade'];
 
 gulp.task('watch', function() {
   gulp.watch(__dirname + '/lib/*.scss', ['scss']);
@@ -34,6 +34,9 @@ gulp.task('nodemon', function() {
 gulp.task('dist', function() {
   gulp.src(dist_files)
     .pipe(gulp.dest('dist/'));
+  gulp.src('./lib/bower.json')
+    .pipe(gulp.dest('./'));
+
   // TODO: Automate bower register
 });
 

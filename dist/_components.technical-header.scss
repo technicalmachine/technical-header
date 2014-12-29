@@ -43,6 +43,7 @@ header{
 
 
 nav {
+    display:block;
     .mobile-nav__container {
         .mobile-nav__logo {
             padding:$header-height/4;
@@ -54,7 +55,7 @@ nav {
         height:$header-height;
         width: 100%;
         @include media-query(palm){
-            float:none;
+            height:auto;
         }
         a {
             display: inline-block;
