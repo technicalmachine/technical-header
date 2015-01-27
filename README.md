@@ -1,5 +1,5 @@
 # Technical-header. A responsive header for Technical Humans.
-
+![Header Screen Shot](https://cloud.githubusercontent.com/assets/5528612/5929652/a775f6c0-a63a-11e4-8c05-c0e05a9e17e8.png)]
 ## Requirements
 
  - bower
@@ -66,4 +66,4 @@ bower install;
 
 To develop with this component simply run `gulp` and make edits to the `lib/test.html` `lib/test.scss`
 
-To publish simply commit changes with appropriate version tags and and publish to the bower registry. 
+To publish simply commit changes with appropriate version tags and and publish to the bower registry.
