@@ -14,10 +14,6 @@
     "tests"
   ],
   "dependencies": {
-    "inuit-responsive-tools": "~0.1.3",
-    "inuit-responsive-settings": "~0.1.3",
-    "font-awesome": "~4.2.0",
-    "inuit-reset": "~0.1.1",
-    "inuit-normalize": "~3.0.1"
+    "foundation": "~5.5.1"
   }
 }

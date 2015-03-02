@@ -7,12 +7,11 @@
  - scss/sass
 
 ## Dependencies
-
- - [inuit-reset](https://github.com/inuitcss/generic.reset)
- - [inuit-normalize](https://github.com/inuitcss/generic.normalize)
- - [inuit-responsive-tools](https://github.com/inuitcss/tools.responsive)
- - [inuit-responsive-settings](https://github.com/inuitcss/settings.responsive)
- - [font-awesome](https://github.com/FortAwesome/Font-Awesome)
+Source Sans Pro
+```html
+<link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900,400italic', rel='stylesheet', type='text/css'>
+```
+**foundation by zurb** you'll need this in you scss compiling path.
 
 ## Use
 To use the header install it as a bower dependency in you application

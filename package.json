@@ -21,7 +21,7 @@
     "express": "^4.10.6",
     "gulp": "^3.8.10",
     "gulp-nodemon": "^1.0.4",
-    "gulp-sass": "^1.2.4"
-  },
-  "dependencies": {}
+    "gulp-sass": "^1.2.4",
+    "jade": "^1.9.2"
+  }
 }

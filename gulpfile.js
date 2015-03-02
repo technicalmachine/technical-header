@@ -9,8 +9,11 @@ gulp.task('watch', function() {
 });
 
 gulp.task('scss', function() {
-  gulp.src(__dirname + '/lib/test.scss')
-    .pipe(sass())
+  gulp.src(__dirname + '/lib/technical-nav.scss')
+    .pipe(sass({
+      errLogToConsole: true,
+      includePaths: ["bower_components/foundation/scss/"]
+    }))
     .pipe(gulp.dest('./lib'));
 });
 
@@ -41,4 +44,5 @@ gulp.task('dist', function() {
 });
 
 gulp.task('dev', ['scss', 'nodemon', 'watch']);
+gulp.task('build', ['scss', 'dist'])
 gulp.task('default', ['dev']);
