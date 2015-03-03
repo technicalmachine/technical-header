@@ -28,9 +28,10 @@ nav {
   text-transform: uppercase;
 }
 
+
 .top-bar__logo{
   padding: rem-calc(10);
-  height: 100%;
+  height: $topbar-height;
 }
 
 .top-bar-section{

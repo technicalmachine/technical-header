@@ -2,14 +2,14 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var nodemon = require('gulp-nodemon');
 
-var dist_files = ['./lib/_components.technical-header.scss', './lib/technical-header.jade'];
+var dist_files = ['./lib/_components.technical-nav.scss', './lib/technical-header.jade','./lib/technical-nav.css'];
 
 gulp.task('watch', function() {
   gulp.watch(__dirname + '/lib/*.scss', ['scss']);
 });
 
 gulp.task('scss', function() {
-  gulp.src(__dirname + '/lib/technical-nav.scss')
+  gulp.src(__dirname + '/lib/*.scss')
     .pipe(sass({
       errLogToConsole: true,
       includePaths: ["bower_components/foundation/scss/"]

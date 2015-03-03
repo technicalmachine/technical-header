@@ -28,20 +28,20 @@ nav {
   text-transform: uppercase;
 }
 
+
 .top-bar__logo{
   padding: rem-calc(10);
-  height: 100%;
+  height: $topbar-height;
 }
 
 .top-bar-section{
-  ul > li > a{
+  a{
     text-decoration: none;
   }
   li:last-of-type {
     padding-right:$topbar-height/3;
   }
 }
-
 .title-area {
   padding:0;
 }
