@@ -1,6 +1,6 @@
 # Technical-header. A responsive header for Technical Humans.
-![Header Screen Shot](https://cloud.githubusercontent.com/assets/5528612/5929652/a775f6c0-a63a-11e4-8c05-c0e05a9e17e8.png)]
-## Requirements
+![Header Screen Shot](https://cloud.githubusercontent.com/assets/5528612/6471543/b4fe1b0c-c1a0-11e4-8757-8a4a5ef52366.png)
+
 
  - bower
  - jade
